@@ -15,5 +15,10 @@ namespace Project.DAL.Repositories.Concretes
         {
 
         }
+
+        public void SpecialCategoryCreation()
+        {
+            
+        }
     }
 }

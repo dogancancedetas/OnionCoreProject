@@ -5,10 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.DAL.Repositories.Abstracts
+namespace Project.BLL.ManageServices.Abstracts
 {
-    public interface ICategoryRepository: IRepository<Category>
+    public interface IProductManager : IManager<Product> 
     {
-        void SpecialCategoryCreation();
     }
 }
